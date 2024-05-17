@@ -26,11 +26,13 @@ class ChangeFileNameHandler(FileSystemEventHandler):
 
 
 if __name__ == "__main__":
+    # This has to match with target_file_names
     folders_to_monitor = [
             "/home/teng/Pictures/Stream/Startbild",
             "/home/teng/Pictures/Stream/Schlussbild"
             ] 
-    
+
+    # This has to match with folders_to_monitor
     target_file_names = [
             "Start.jpg",
             "End.jpg"
